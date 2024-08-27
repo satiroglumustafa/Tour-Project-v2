@@ -1,0 +1,59 @@
+
+.card-img {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+    position: relative;
+}
+
+.card-img-top {
+    position: absolute;
+    left: 0;
+
+}
+.card .btn-danger {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    font-weight: 500;
+    border-radius: 100%;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
+.card-body {
+    background: #f5f5f5;
+ 
+}
+.card-title {
+    min-height: 50px;
+    display: flex;
+   font-weight: 700 !important;
+  
+}
+.card-text{
+    font-size:16px;
+    font-weight: 500;
+}
+.card-text button {
+    font-size: 14px;
+    border: 0;
+    color: #0014d6;
+    text-decoration: underline;
+}
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.category {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background: #dc3545;
+    text-align: center;
+    color: #fff;
+}
